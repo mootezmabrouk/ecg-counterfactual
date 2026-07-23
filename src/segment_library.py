@@ -8,7 +8,7 @@ from typing import Iterable
 import numpy as np
 import pandas as pd
 
-from preprocessing import LEAD_NAMES, ProcessedECG, preprocess_echonext_record
+from src.preprocessing import LEAD_NAMES, ProcessedECG, preprocess_echonext_record
 
 
 SEGMENT_TYPES = ("p_wave", "qrs_complex", "st_segment", "t_wave")

@@ -14,7 +14,7 @@ from typing import Any
 
 import numpy as np
 
-from loader import LABEL_COLUMN
+from src.loader import LABEL_COLUMN
 
 
 DEFAULT_FS = 250
